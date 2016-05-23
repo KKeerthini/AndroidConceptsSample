@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andr.studio.proj.swipetab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".twitterintergration.TwitterActivity"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".twitterintergration.WebViewTwitterActivity"
+            android:label="@string/app_name" />
+
+
+        <!-- Text Color Change Activity
+          android:theme="@style/AppTheme.NoActionBar" -->
+
+      <!--  <activity
+           android:name=".textcolorchange.TextColorChangeActivity"
+           android:label="@string/app_name">
+
+           <intent-filter>
+               <action android:name="android.intent.action.MAIN" />
+               <category android:name="android.intent.category.LAUNCHER" />
+           </intent-filter>
+       </activity>
+ -->
+
+        <!--Sensor-->
+        <!-- <activity
+             android:name=".sensor.SensorDetectActivity"
+             android:label="@string/app_name"
+             android:theme="@style/AppTheme.NoActionBar">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+ -->
+
+
+        <!--Swipe Listview n Position change in listview Activity-->
+        <!-- <activity
+             android:name=".deletenundo.ContextualUndoActivity"
+             android:label="@string/app_name"
+             android:theme="@style/AppTheme.NoActionBar">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+ -->
+
+        <!-- Sliding Panel Layout Activity-->
+        <!--  <activity
+              android:name=".slidingpanellayout.SlidingPanelClass"
+              android:label="@string/app_name"
+              android:theme="@style/AppTheme.NoActionBar">
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
+          </activity>
+  -->
+
+    </application>
+
+</manifest>
