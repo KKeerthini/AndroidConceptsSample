@@ -29,7 +29,7 @@ public class HttpReq extends AsyncTask<String, String, String> {
 
 
 
-  public  HttpReq(Context context,AsyncInterface taskcomp,String url_req,Integer url_no)
+  public HttpReq(Context context,AsyncInterface taskcomp,String url_req,Integer url_no)
     {
         this.context=context;
         this.taskcomp=taskcomp;

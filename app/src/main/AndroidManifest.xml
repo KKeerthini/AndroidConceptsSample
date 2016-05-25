@@ -14,7 +14,23 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="18c7161e86a7b277d99343956257fff91142e89a" />
+
         <activity
+            android:name=".opendesk.asynctask.MainActivity"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+      <!--  <Twitter Integration with twitter4j lib>-->
+
+       <!-- <activity
             android:name=".twitterintergration.TwitterActivity"
             android:label="@string/app_name">
 
@@ -27,6 +43,7 @@
         <activity
             android:name=".twitterintergration.WebViewTwitterActivity"
             android:label="@string/app_name" />
+ -->
 
 
         <!-- Text Color Change Activity
@@ -82,6 +99,7 @@
               </intent-filter>
           </activity>
   -->
+
 
     </application>
 

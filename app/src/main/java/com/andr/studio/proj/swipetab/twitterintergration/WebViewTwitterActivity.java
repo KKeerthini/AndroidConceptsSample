@@ -1,8 +1,11 @@
+/*
 package com.andr.studio.proj.swipetab.twitterintergration;
 
+*/
 /**
  * Created by CIPL0310 on 5/20/2016.
- */
+ *//*
+
 
 
 import android.app.Activity;
@@ -49,13 +52,17 @@ public class WebViewTwitterActivity extends Activity {
             if (url.contains(getResources().getString(R.string.twitter_callback))) {
                 Uri uri = Uri.parse(url);
 
-				/* Sending results back */
+				*/
+/* Sending results back *//*
+
                 String verifier = uri.getQueryParameter(getString(R.string.twitter_oauth_verifier));
                 Intent resultIntent = new Intent();
                 resultIntent.putExtra(getString(R.string.twitter_oauth_verifier), verifier);
                 setResult(RESULT_OK, resultIntent);
 
-				/* closing webview */
+				*/
+/* closing webview *//*
+
                 finish();
                 return true;
             }
@@ -64,3 +71,4 @@ public class WebViewTwitterActivity extends Activity {
     }
 
 }
+*/
